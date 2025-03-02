@@ -1,0 +1,26 @@
+.content {
+    > * {
+        padding-left: 30px;
+      }
+         width: 85%;
+         min-height: 750px;
+         min-width: 600px;
+        background-color: $primary-color;
+    p {
+        
+        width: 55%;
+        min-width: 550px;
+        //text sizes changes below!
+        font-size: 1rem;
+        line-height: normal;
+     }
+    img, video {
+        height: 350px;
+        width: 550px;
+        margin-bottom: 30px;
+    }
+    href {
+        text-decoration: underline;
+        color: $secondary-color;
+    }
+     }
